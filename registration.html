@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <style>
+        body { font-family: Arial; background: #eee; }
+        form { width: 500px; margin: 30px auto; padding: 20px; background: white; }
+        input, select, textarea { margin: 7px; padding: 5px; }
+    </style>
+</head>
+
+<body>
+    <h2 align="center">Student Registration Form</h2>
+
+    <form>
+        First Name: <input type="text" name="fname"><br>
+        Last Name: <input type="text" name="lname"><br>
+        Father's Name: <input type="text" name="father"><br>
+        Mother's Name: <input type="text" name="mother"><br>
+        Date of Birth: <input type="date" name="dob"><br>
+        Email: <input type="email" name="email"><br>
+
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female<br>
+
+        Course:
+        <select name="course">
+            <option>Select</option>
+            <option>B.Tech</option>
+            <option>MCA</option>
+            <option>B.Com</option>
+        </select><br>
+
+        Hobbies:
+        <input type="checkbox"> Singing
+        <input type="checkbox"> Dancing
+        <input type="checkbox"> Reading
+        <input type="checkbox"> Cricket<br>
+
+        Address:
+        <textarea rows="3" cols="30"></textarea><br>
+
+        Photo: <input type="file"><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
+
